@@ -1,0 +1,39 @@
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Start upgrade from 8.5.8
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.0 MB/128 MB - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > Backing up options of 8.5.8
+04-11-2024 04:28:21 - INFO  - 8.6.0 - 6.1 MB/128 MB - admin > End

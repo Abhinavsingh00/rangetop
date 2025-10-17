@@ -1,0 +1,34 @@
+{
+  "mcpServers": { 
+    "sequential-thinking": {
+      "command": "/home/abhinav/.local/bin/uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/arben-adm/mcp-sequential-thinking",
+        "--with",
+        "portalocker",
+        "mcp-sequential-thinking"
+      ],
+      "transportType": "stdio"
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"]
+    },
+    "serena": {
+            "command": "/home/abhinav/.local/bin/uvx",
+            "args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server"]
+        },
+ "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "linear": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.linear.app/sse"]
+    }
+  }
+}

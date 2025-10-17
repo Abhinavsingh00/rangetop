@@ -1,0 +1,127 @@
+/* -- index_sec_1 -- */
+
+.index_sec_1 .index_sec_1_container {
+    gap: 2.5rem;
+}
+.index_sec_1 .index_sec_1_container>hr {
+    background-color: var(--border_clr);
+    height: 2px;
+    border: none;
+}
+.index_sec_1 .col_1 .product_review_card_wrapper .card_1 {
+    max-width: 380px;
+    width: 100%;
+}
+/* .index_sec_1 .col_1 .product_review_card_wrapper .card_1:last-of-type {
+border-right: none;
+padding-right: 0!important;
+} */
+/* .index_sec_1 .col_1 .product_review_card_wrapper .card_1 .prodct_img a>img {
+    width: 372px;
+    height: 285px;
+} */
+.index_sec_1 .col_1 .heading_txt a{
+    border: 1px solid var(--border_clr);
+    box-shadow: 0 4px 0 0 var(--border_clr);
+    font-size: 1.75rem;
+}
+
+.index_sec_1 .col_1 .stars_nd_shares .lft_stars>a {
+    font-size: 1.25rem;
+}
+.index_sec_1 .stars_nd_shares .lft_stars>a {
+    color: var(--primary_heading_clr);
+    font-family: var(--big_shoulders_txt);
+}
+.index_sec_1 .col_2 .stars_nd_shares .lft_stars>a {
+    font-weight: 700;
+}
+
+.index_sec_1 .stars_nd_shares .ryt_shares>a {
+    font-family: var(--open_sans_font_family);
+    font-size: .875rem;
+    color: #222222;
+	    text-transform: capitalize;
+}
+.index_sec_1 .card_1:hover .stars_nd_shares .ryt_shares>a{
+    color: var(--primary_heading_clr);
+}
+
+/*------- index_pg_sec_3_css start -------*/
+.index_sec_3 .index_sec_3_container {
+    gap: 4rem;
+}
+
+.index_sec_3 .categ_wrapper {
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.index_sec_3 .inner_feature_post {
+    position: relative;
+}
+
+.index_sec_3 .inner_feature_post .inner_txt {
+    background-color: var(--solid_white_clr);
+    padding: .5rem .625rem;
+    width: max-content;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--border_clr);
+    box-shadow: 0 4px 0 0;
+}
+
+.index_sec_3 .inner_feature_post .inner_txt a {
+    color: var(--secondary_head_clr);
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--big_shoulders_txt);
+}
+
+.index_sec_3 .inner_feature_post:hover .inner_txt a {
+    color: var(--primary_heading_clr);
+}
+
+@media screen and (max-width: 768px){
+	.index_sec_1 .stars_nd_shares .ryt_shares>a {
+		font-size: 0.7rem;
+	}
+	.index_sec_1 .stars_nd_shares .lft_stars>a{
+		    font-size: 1rem;
+	}
+}
+
+/*--------- Mobile_responsive start ---------*/
+@media screen and (max-width: 580px){
+	.home .product_review_card_wrapper{
+	        display: flex;
+        flex-wrap: nowrap;
+}
+    .index_sec_1 .col_1 .product_review_card_wrapper .card_1{
+        max-width: 100%;
+    }
+    .index_sec_1 .index_sec_1_container {
+    gap: 4rem;
+    }
+    .index_sec_1 .col_1 .heading_txt a{
+        font-size: 1.25rem!important;
+    }
+    .index_sec_1 .index_sec_1_container>hr {
+    display: none;
+    }
+    .index_sec_3 .index_sec_3_container{
+        gap: 3rem;
+    }
+    .index_sec_3 .categ_wrapper{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .index_sec_3 .inner_feature_post .img_1 >a{
+        width: 100%;
+    }
+    .index_sec_3 .inner_feature_post .inner_txt {
+    bottom: -15%;
+    }
+}

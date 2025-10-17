@@ -1,0 +1,12 @@
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.tfc_search_form_404 input#s {
+    padding: 10px 0px;
+}
+.tfc_search_form_404 input#searchsubmit {
+    padding: 10px 10px;
+    margin-left: -8px;
+}

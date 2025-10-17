@@ -1,0 +1,10 @@
+{
+  "enabledMcpjsonServers": [
+    "sequential-thinking",
+    "chrome-devtools",
+    "serena",
+    "context7",
+    "linear"
+  ],
+  "enableAllProjectMcpServers": true
+}
